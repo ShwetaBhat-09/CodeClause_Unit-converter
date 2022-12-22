@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro|Spartan&display=swap');
+:root{
+  --footer_font : 'Lato', sans-serif;
+  --body_font :  'Source Sans Pro', sans-serif;
+  --header-font :  'Spartan', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body_font) !important;
+}
+.container{
+    padding-top: 15%;
+}
+h1 a:hover{
+  text-decoration: none;
+}
+.dropdown-container{
+    padding: 10px;
+}
+.about-para{
+    padding: inherit;
+    margin: 2%;
+    font-size: 1.5em;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height : 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px ;
+  }
+footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: var(--footer_font) !important;
+}
+footer .fa:hover {
+    background-color: yellow;
+    transform: scale(1.8);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.fa-github{
+    background: #333;
+    color: white;
+}  
+input{
+  padding: 5px;
+ 
+}
+.header-text{
+  font-family: var(--header-font) !important;
+
+}
+@media only screen and (max-width: 768px){      /*if screen size is bigger than screen < 768px*/
+  .header-text{
+    font-size: 1em;
+  }
+}
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Spartan', sans-serif;
+*/
